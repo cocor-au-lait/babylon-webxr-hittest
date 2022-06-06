@@ -11,6 +11,9 @@ import {
   MeshBuilder,
   Quaternion,
 } from "@babylonjs/core";
+import VConsole from "vconsole";
+
+new VConsole({ theme: "dark" });
 
 class App {
   constructor() {
