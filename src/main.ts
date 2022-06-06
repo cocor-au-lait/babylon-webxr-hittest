@@ -70,7 +70,7 @@ class App {
       if (results.length) {
         marker.isVisible = true;
         // @ts-ignore
-        hitTest = results[0];
+        const hitTest = results[0];
         // @ts-ignore
         hitTest.transformationMatrix.decompose(
           marker.scaling,
